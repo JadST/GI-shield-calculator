@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diona Shield Absorption Calculator</title>
+    <style>
+    body {
+      background-color: #F5F5DC;
+      text-align: center;
+      font-family: "Franklin Gothic Bold"; 
+      font-size: 24px; 
+      font-style: normal; 
+      font-variant: normal; 
+      font-weight: 700; 
+      line-height: 26.4px; 
+    }
+    h1 {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="main-frame">
+    <h1>Diona Shield Absorption Calculator</h1>
+    <label for="hp-input">Enter Diona's HP:</label>
+    <input type="number" id="hp-input" min="0" step="1">
+    <br>
+    <label for="talent-level-input">Talent Level:</label>
+    <input type="number" id="talent-level-input" min="1" max="13">
+
+    <br>
+
+    <label for="constellation-2">Constellation 2 (15% increase):</label>
+    <input type="checkbox" id="constellation-2">
+
+    <br><br>
+
+    <button id="calculate-button">Calculate</button>
+
+    <br><br>
+
+    <label for="result-output">Diona's Shield Absorption:</label>
+    <output id="result-output"></output>
+
+    </div>
+    <br>
+    <div>
+    <p>*Shield absorption in-game may be greater than calculations due to other influences not accounted for (Shield strength and/or other bonuses)</p>
+    <p>This calculator only takes into account raw shield absorption from the character's elemental skill*</p>
+    </div>
+
+    <footer>
+    <a href="index.html">Go back to home page</a>
+    </footer>
+
+    <script src="js/diona.js"></script>
+  </body>
+</html>
