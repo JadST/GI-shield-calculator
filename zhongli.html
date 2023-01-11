@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Thoma's Shield Absorption Calculator</title>
+    <title>Zhongli's Shield Absorption Calculator</title>
     <style>
     body {
       background-color: #F5F5DC;
@@ -21,27 +21,25 @@
   </head>
   <body>
     <header>
-      <h1>Thoma's Shield Absorption Calculator</h1>
+      <h1>Zhongli's Shield Absorption Calculator</h1>
     </header>
 
     <main>
       <section>
-        <label for="hp-input">Enter Thoma's HP:</label>
+        <label for="hp-input">Enter Zhongli's HP:</label>
         <input type="number" id="hp-input" min="0" step="1">
         <br>
-        <label for="talent-level-input">Enter Blazing Blessing's talent level:</label>
+        <label for="talent-level-input">Enter Dominus Lapidis' talent level:</label>
         <input type="number" id="talent-level-input" min="1" max="13" step="1">
         <br>
         <button id="calculate-button">Calculate</button>
         <br><br>
-        <label for="result-output">Thoma's Shield Absorption:</label>
+        <label for="result-output">Zhongli's Shield Absorption:</label>
         <output id="result-output"></output>
         <br>
-        <label for="max-result-output">Thoma's MAX Shield Absorption:</label>
-        <output id="max-result-output"></output>
         <div>
-          <p>*Shield absorption in-game may be greater than calculations due to other influences not accounted for (Shield strength and/or other bonuses)</p>
-          <p>This calculator only takes into account raw shield absorption from the character's elemental skill*</p>
+        <p>*Shield absorption in-game may be greater than calculations due to other influences not accounted for (Shield strength and/or other bonuses)</p>
+        <p>This calculator only takes into account raw shield absorption from the character's elemental skill*</p>
         </div>
       </section>
     </main>
@@ -50,6 +48,6 @@
       <a href="index.html">Go back to home page</a>
     </footer>
     
-    <script src="js/thoma.js"></script>
+    <script src="src/js/zhongli.js"></script>
   </body>
 </html>
